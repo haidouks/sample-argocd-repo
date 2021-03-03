@@ -1,4 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: denemeler
+  name: deneme
+spec:
+  finalizers:
+  - kubernetes
